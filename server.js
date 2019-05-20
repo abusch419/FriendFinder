@@ -11,10 +11,6 @@ app.use(express.json());
 require("./routing/htmlRoutes.js")(app);
 require("./routing/apiRoutes.js")(app);
 
-
-
-let friends = require("./data/friends.json")
-
 app.listen(PORT, function() {
     console.log(`Server listening on PORT: ${PORT}`);
 });

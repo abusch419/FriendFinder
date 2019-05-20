@@ -6,5 +6,9 @@ module.exports = function(app) {
         friends.push(newfriend);
         res.json({ waiting: false, message: "You have a reservation"})
     
+    });
+    app.get("/api/friends", function(req, res) {
+        res.json(friends);
     })
+
 }
