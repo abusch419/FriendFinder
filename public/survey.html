@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frind Finder Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        input {
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+
+        h4 {
+            padding-top: 8px;
+            padding-bottom: 1px;
+        }
+
+        label {
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+
+        #name {
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+
+        #photo {
+            padding-top: 5px;
+            padding-bottom: 3px;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            box-sizing: border-box
+        }
+
+        .btn {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <hr>
+
+        <form>
+            <h3>About You</h1>
+                <label for="inputEmail4">Name(Required)</label>
+                <input type="name" class="form-control" id="name" placeholder="John Smith">
+                <label for="inputPassword4">Web Link to Photo Image (Required)</label>
+                <input type="photo" class="form-control" id="photo" placeholder="Link to photo">
+                <hr>
+                <h4>Question 1</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your mind is always buzzing with unexplored
+                    ideas and plans.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q1">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 2</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Generally speaking, you rely more on your
+                    experience than your imagination.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q2">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 3</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">You find it easy to stay relaxed and focused
+                    even when there is some pressure.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q3">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 4</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">You rarely do something just out of sheer
+                    curiosity.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q4">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 5</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">People can rarely upset you.
+                </label>
+                <select class="custom-select my-1 mr-sm-2" id="q5">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 6</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">It is often difficult for you to relate to
+                    other people’s feelings.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q6">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 7</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">In a discussion, truth should be more
+                    important than people’s sensitivities.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q7">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 8</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">You rarely get carried away by fantasies and
+                    ideas.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q8">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 9</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">You think that everyone’s views should be
+                    respected regardless of whether they are supported by facts or not.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q9">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <h4>Question 10</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">You feel more energetic after spending time
+                    with a group of people.</label>
+                <select class="custom-select my-1 mr-sm-2" id="q10">
+                    <option value="1">One (Strongly Disagree)</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five (Strongly Agree)</option>
+                </select>
+                <button type="submit" class="btn btn-primary btn-block" id="submit-survey">Submit</button>
+        </form>
+    </div>
+
+    <hr>
+    <div class="container">
+        <a href="/api/friends">API Friends List |</a>
+        <a href="https://github.com/abusch419/FriendFinder/tree/gh-pages">GitHub Repo</a>
+    </div>
+
+
+
+
+
+
+
+    <!-- Modal -->
+    <div id="friendModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">
+                        Meet Your New Best Friend!
+                    </h3>
+                </div>
+                <div class="modal-body img-responsive">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" src="https://via.placeholder.com/350x150" style="height:100%; width: 100%"
+                        alt="friendImage">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+
+        $("#submit-survey").on("click", function (e) {
+            e.preventDefault();
+            if ($("#name").val() === "" || $("#photo").val() === "") {
+                alert("Please complete the required forms!")
+            }
+            else if ($("#name").val() !== "" || $("#photo").val() !== "") {
+                let newUser = {
+                    name: $("#name").val().trim(),
+                    photo: $("#photo").val().trim(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val()
+                    ]
+                };
+                $.post("/api/friends", newUser, function (data) {
+                    $("#match-name").text(data.name);
+                    $("#match-img").attr("src", data.photo);
+                    $("#friendModal").modal("toggle");
+                })
+            }
+
+        });
+
+    </script>
+</body>
+
+</html>
