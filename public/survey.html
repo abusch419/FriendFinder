@@ -158,9 +158,9 @@
                         <strong>Best Match</strong>
                     </h2>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body img-responsive">
                     <h2 id="match-name"></h2>
-                    <img id="match-img" src="https://via.placeholder.com/350x150" alt="">
+                    <img id="match-img" src="https://via.placeholder.com/350x150" style="height:100%; width: 100%" alt="friendImage">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -175,7 +175,7 @@
 
         $("#submit-survey").on("click", function (e) {
             e.preventDefault();
-            let newFriend = {
+            let newUser = {
                 name: $("#name").val().trim(),
                 photo: $("#photo").val().trim(),
                 scores: [
@@ -191,7 +191,7 @@
                     $("#q10").val()
                 ]
             };
-            $.post("/api/friends", newFriend, function (data) {
+            $.post("/api/friends", newUser, function (data) {
                 $("#match-name").text(data.name);
                 $("#match-img").attr("src", data.photo);
                 $("#friendModal").modal("toggle");

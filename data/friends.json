@@ -1,50 +1,50 @@
 [
     {
     "name":"Bob",
-    "photo":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjSwZONlqriAhXtdN8KHQAvDhIQjRx6BAgBEAU&url=https%3A%2F%2Fdeadimages.com%2Fstore%2Fphoto%2Fbob-weir-may-24-1992-mountain-view-ca&psig=AOvVaw1feCtbZf9MPDKd44r2hE51&ust=1558443896319216",
+    "photo":"https://thecommentboxblog.files.wordpress.com/2013/01/19840703_1870.jpg",
     "scores":[
-        5,
-        1,
-        4,
-        4,
-        5,
-        1,
-        2,
-        5,
-        4,
-        1
+        "5",
+        "1",
+        "4",
+        "4",
+        "5",
+        "1",
+        "2",
+        "5",
+        "4",
+        "1"
       ]
   },
   {
     "name":"Jerry",
     "photo":"http://americanroutes.wwno.org/images/artists/full/JGarcia-3.jpg",
     "scores":[
-        5,
-        1,
-        4,
-        4,
-        5,
-        1,
-        2,
-        5,
-        4,
-        1
+        "5",
+        "1",
+        "4",
+        "4",
+        "5",
+        "1",
+        "2",
+        "5",
+        "4",
+        "1"
       ]
   },
   {
     "name":"Phil",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://pbs.twimg.com/profile_images/2947964025/8f44b9edb794893c910b081be324faa9.jpeg",
     "scores":[
-        5,
-        1,
-        4,
-        4,
-        5,
-        1,
-        2,
-        5,
-        4,
-        1
+        "5",
+        "1",
+        "4",
+        "4",
+        "5",
+        "1",
+        "2",
+        "5",
+        "4",
+        "1"
       ]
   }
 ] 
