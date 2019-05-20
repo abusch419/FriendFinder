@@ -4,7 +4,7 @@ Random Friend Generation Using https://thispersondoesnotexist.com/
 
 
 Deployed Via Heroku:
-https://desolate-beach-63395.herokuapp.com/survey
+https://desolate-beach-63395.herokuapp.com
 
 
 
