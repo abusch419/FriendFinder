@@ -20,12 +20,12 @@ module.exports = function (app) {
         let scoreDifference = 0;
         // loop thorugh the friends array and then find each total score for comparison 
         for (let i = 0; i < friends.length -1; i++) {
-            console.log("outer loop")
             scoreDifference = 0;
             // looping through the score array of each friend
             for (let j = 0; j < 10; j++) {
-                console.log("inner loop")
+                // update scoreDifference to equal the difference between the user and each potential friend's total score
                 scoreDifference += (parseInt(userScores[j]) - parseInt(friends[i].scores[j]))
+                // if the score difference for the potential friend in question is less than the current best match replace with the current low score
                 if (scoreDifference <= friendMatch.friendDifference) {
                     friendMatch.name = friends[i].name;
                     friendMatch.photo = friends[i].photo;
@@ -33,9 +33,9 @@ module.exports = function (app) {
                 }
             }
         }
-    
+        // add the user to the friends object
         friends.push(newUser);
-        
+        // send back the best match
         res.json(friendMatch)
 
     });
