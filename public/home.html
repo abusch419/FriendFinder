@@ -10,15 +10,60 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <style>
-    body {
+        body {
             font-family: Georgia, 'Times New Roman', Times, serif;
             box-sizing: border-box
+        }
+
+        .jumbotron {
+            margin-top: 100px;
+        }
+
+        #social-media-icon {
+            height: 20px;
+            width: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: unset;
+            flex: unset;
+        }
+
+        .nav-container {
+            position: fixed;
+            width: 100%;
+        }
+
+        .push {
+            height: 100px;
+        }
+
+        .nav-div {
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 
 </head>
 
 <body>
+
+    <nav class="navbar header fixed-top navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">Friend Finder</a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/api/friends">API Friends List |</a>
+                <a class="nav-item nav-link" href="https://github.com/abusch419/FriendFinder/tree/gh-pages">GitHub
+                    Repo</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="container">
         <div class="jumbotron">
@@ -37,10 +82,42 @@
         </div>
 
     </div>
-    <div class="container">
-        <a href="/api/friends">API Friends List |</a>
-        <a href="https://github.com/abusch419/FriendFinder/tree/gh-pages">GitHub Repo</a>
+
+    <div class="push">
+
     </div>
+
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="nav-div">
+            <span>
+                <a href="https://www.facebook.com/alex.eversbusch"><img id="social-media-icon" src="./images/fb.png"
+                        alt="facebook"></a>
+            </span>
+            <span>
+                <a href="https://github.com/abusch419"><img id="social-media-icon" src="./images/github.png"
+                        alt="github"></a>
+            </span>
+            <span>
+                <a href="https://www.instagram.com/localmotiveathens/"><img id="social-media-icon"
+                        src="./images/insta.png" alt="insta"></a>
+            </span>
+            <span>
+                <a href="https://www.linkedin.com/in/alex-eversbusch-59834b25/"><img id="social-media-icon"
+                        src="./images/linkedin.png" alt="linkedin"></a>
+            </span>
+            <span>
+                <a href="https://soundcloud.com/localmotiveathens"><img id="social-media-icon" src="./images/resume.png"
+                        alt="soundcloud"></a>
+            </span>
+            <span>
+                <a
+                    href="https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=y8%2FPwlwzH5H28L9qS5mngBSO2Ug%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf3DrecLWf7OiuVgRKn8clAZhevKgEzbmD8G5fYrufooijZPtIY24ZxUBbFI8lWxI"><img
+                        id="social-media-icon" src="./images/resume.png" alt="resume"></a>
+            </span>
+        </div>
+
+    </nav>
 
 
 
