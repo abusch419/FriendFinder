@@ -1,0 +1,50 @@
+[
+    {
+    "name":"Isotta Miha",
+    "photo":"https://thispersondoesnotexist.com/image",
+    "scores":[
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "3"
+      ]
+  },
+  {
+    "name":"Zacharias Oluwatoyin",
+    "photo":"https://thispersondoesnotexist.com/image",
+    "scores":[
+        "1",
+        "3",
+        "2",
+        "3",
+        "3",
+        "2",
+        "4",
+        "3",
+        "2",
+        "5"
+      ]
+  },
+  {
+    "name":"Xanthe Shandar",
+    "photo":"https://thispersondoesnotexist.com/image",
+    "scores":[
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "3"
+      ]
+  }
+] 
