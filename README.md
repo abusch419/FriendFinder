@@ -1,6 +1,6 @@
 # Friend Finder - Online Dating App
 
-An online dating app simulator. Take a survey, and then see who your closest match is. Your scores will be compared to the scores of all other participants in the survey. 
+An online dating app simulator. Take the survey, and then see who your closest match is. Your scores will be compared to the scores of all other participants in the survey. 
 
 ## Getting Started
 
@@ -8,8 +8,8 @@ Please install all dependencies needed to run this program. You should only need
 
 ## Deployment
 
-This app was deployed using heroku and jawsDB.
-https://secure-hamlet-21409.herokuapp.com/
+This app was deployed using heroku.
+https://desolate-beach-63395.herokuapp.com/
 
 ## Built With
 
@@ -27,13 +27,18 @@ https://secure-hamlet-21409.herokuapp.com/
 
 V1.0
 
+## Shout Outs!
+Random Friend Name and Image Generation From https://thispersondoesnotexist.com/
+
 ## Screenshots
-## Store Front
-![](./public/images/onlinemusicstore1.jpg)
-## Manager Login
-![](./public/images/managerlogin.png)
-## Manager Page
-![](./public/images/managerpage.png)
-## Add Items Page
-![](./public/images/additempage.png)
+## Home Page
+![](./public/images/homepage.png)
+## Survey Page
+![](./public/images/survey1.png)
+## Survey Submit
+![](./public/images/survey2.png)
+## Results Modal
+![](./public/images/result.png)
+## API Link
+![](./public/images/api.png)
 
